@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* header */
+header {
+    position: absolute;
+    width: 100%;
+}
+
+.nav-link {
+    color: white;
+    font-size: 2.5rem;
+}
+
+/* Banner */
+#banner {
+    height: 100vh;
+    background-image: url("https://images.pexels.com/photos/7187195/pexels-photo-7187195.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#titulo {
+    height: 100vh;
+    background: linear-gradient(160deg, #0000001f, rgb(0, 0, 0));
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#titulo {
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+#titulo h1,
+#titulo h2 {
+    font-size: 5rem;
+}
+
+#titulo div {
+    margin: 1rem;
+}
+
+.bx {
+    color: white;
+    font-size: 5rem;
+}
+
+@media (max-width: 500px) {
+    #titulo h1,
+    #titulo h2 {
+        font-size: 4rem;
+    }
+}
+
+/* Servicios */
+#servicios,
+#ubicacion {
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.servicios__titulo,
+.ubicacion__titulo,
+.contacto__titulo {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+
+.contenedor__card {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+}
+
+.card {
+    background-color: wheat;
+    width: 100%;
+    margin: auto;
+}
+
+.card__titulo {
+    font-size: 3.5rem;
+}
+
+.card__descripcion {
+    font-size: 2rem;
+    color: grey;
+}
+
+.card__precio {
+    font-size: 3rem;
+    color: brown;
+}
+
+.card__button {
+    width: 40%;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: .5rem;
+    border-radius: 1rem;
+}
+
+@media (max-width: 768px) {
+    .contenedor__card {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 489px) {
+    .contenedor__card {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+/* Ubicaion */
+.ubicacion__mapa iframe {
+    width: 60%;
+    height: 400px;
+}
+
+/* Contacto */
+#contacto {
+    text-align: center;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contacto {
+    background-image: url('https://images.pexels.com/photos/3865560/pexels-photo-3865560.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contacto__container {
+    width: 100%;
+    background: linear-gradient(#00000038, #000000);
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contacto__texto {
+    width: 90%;
+    margin: auto;
+}
+
+.contacto__texto div {
+    font-size: 2rem;
+    margin: 1rem 0;
+    color: white;
+}
+
+.contacto__texto div h3 {
+    font-size: 3rem;
+}
+
+.contacto__titulo {
+    color: white;
+}
+
+.contacto__formulario form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+}
+
+form div {
+    width: 100%;
+}
+
+.formulario__item {
+    width: 80%;
+    height: 50px;
+    margin-bottom: 1rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.formulario__item--textarea {
+    height: 180px;
+    resize: none;
+}
+
+.formulario__item--boton {
+    width: 100px;
+}
+
+
+@media (max-width: 768px) {
+    #contacto {
+        background-image: url('https://images.pexels.com/photos/3865567/pexels-photo-3865567.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    }
+    .contacto__container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* footer */
+footer {
+    background-color: black;
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+footer section {
+    display: flex;
+    align-items: center;
+    padding: 0 10rem;
+}
+
+.col__izquierda {
+    justify-content: flex-start;
+}
+
+.col__derecha {
+    justify-content: flex-end;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+footer ul li {
+    display: inline;
+}
+
+.copyright,
+.contacto__developer {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.contacto__developer li {
+    padding-left: 1rem;
+}
+
+@media  (max-width: 768px) {
+    .bx__footer {
+        font-size: 4rem;
+    }
+}
+
+@media  (max-width: 650px) {
+    footer {
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+    }
+
+    .col__izquierda,
+    .col__derecha {
+        justify-content: center;
+        text-align: center;
+    }
+
+    footer ul li {
+        margin: .5rem;
+    }
+}
