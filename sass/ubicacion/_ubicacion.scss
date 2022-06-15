@@ -1,0 +1,56 @@
+@import '../colores';
+
+#ubicacion {
+    text-align: center;
+    margin: 4rem 0;
+    background-image: url("../img/fondo-ubicacion.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ubicacion__titulo {
+    padding-top: 1rem;
+    color: $color-4;
+    font-weight: bold;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+
+.ubicacion__container {
+    background: linear-gradient(90deg, #0000001f, rgb(0, 0, 0));
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+.ubicacion__mapa {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    margin: 1rem auto;
+
+    iframe {
+        width: 400px;
+        height: 400px;
+        border-radius: 1rem;
+    }
+
+    div {
+        text-align: justify;
+        font-size: 2rem;
+        margin: auto;
+        padding-bottom: 2rem;
+        color: $color-3;
+    }
+}
+
+@media (max-width: 1200px) {
+    .ubicacion__mapa {
+        grid-template-columns: 1fr;
+        grid-gap: 2rem
+    }
+
+    .ubicacion__mapa iframe {
+        width: 100%;
+    }
+}

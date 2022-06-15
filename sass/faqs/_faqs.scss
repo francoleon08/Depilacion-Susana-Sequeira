@@ -1,0 +1,27 @@
+@import '../colores';
+
+#faqs {
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.faqs__titulo {
+    color: $color-1;
+    font-weight: bold;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+
+.container__accordion {
+    width: 70%;
+    margin: auto;
+    font-size: 1.7rem;
+}
+
+.accordion-button {
+    font-size: 2rem;
+}
+
+.accordion-body {
+    text-align: justify;
+}

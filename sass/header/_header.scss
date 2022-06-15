@@ -1,0 +1,15 @@
+@import '../colores';
+
+header {
+    position: absolute;
+    width: 100%;
+}
+
+.nav-item {
+    z-index: 1;
+}
+
+.nav-link {
+    color: $color-3;
+    font-size: 2.5rem;    
+}

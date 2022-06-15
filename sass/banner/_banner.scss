@@ -1,0 +1,54 @@
+@import '../colores';
+#banner {
+    height: 100vh;
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#titulo {
+    height: 100vh;
+    background: linear-gradient(160deg, #0000001f, rgb(0, 0, 0));
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#titulo {
+    color: $color-3;
+    margin: auto;
+    text-align: center;
+}
+
+#titulo h1,
+#titulo h2 {
+    font-size: 5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#titulo div {
+    margin: 1rem;
+}
+
+.bx {
+    color: $color-4;
+    font-size: 5rem;
+}
+
+.boton__scroll {
+    position: relative;
+    top: 20%;
+}
+
+.boton__scroll a i {
+    font-size: 8rem;
+}
+
+@media (max-width: 500px) {
+
+    #titulo h1,
+    #titulo h2 {
+        font-size: 4rem;
+    }
+}

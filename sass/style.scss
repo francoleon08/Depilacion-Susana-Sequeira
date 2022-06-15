@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+@import 'header/header';
+@import 'banner/banner';
+@import 'servicios/servicios';
+@import 'ubicacion/ubicacion';
+@import 'faqs/faqs';
+@import 'contacto/contacto';
+@import 'footer/footer';
+@import 'modals/modal-developer';

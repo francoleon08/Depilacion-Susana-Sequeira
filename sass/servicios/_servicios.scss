@@ -1,0 +1,83 @@
+@import '../colores';
+
+#servicios {
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.servicios__titulo {
+    font-size: 5rem;
+    margin-bottom: 10rem;
+    color: $color-1;
+    font-weight: bold;
+}
+
+.contenedor__card {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+    grid-row-gap: 10rem;
+}
+
+.card {
+    background-color: $color-3;
+    width: 100%;
+    margin: auto;
+    border: none;
+    border-radius: 3rem;
+}
+
+.card__img {
+    height: 90px;
+
+    img {
+        position: relative;
+        top: -77px;
+        border: 5px solid $color-3;
+        border-radius: 10rem;
+    }
+}
+
+.card__titulo {
+    font-size: 3.5rem;
+    color: $color-1;
+    font-weight: bold;
+}
+
+.card__descripcion {
+    font-size: 2rem;
+    color: $color-1;
+    border-top: 2px solid $color-4;
+    border-bottom: 2px solid $color-4;
+}
+
+.card__precio {
+    font-size: 3rem;
+    color: brown;
+}
+
+.card__button {
+    width: 40%;
+    margin: 1rem 0 2rem 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: .5rem;
+    border: 1px solid $color-4;
+    border-radius: 1rem;
+    background-color: $color-4;
+    color: $color-1;
+}
+
+@media (max-width: 768px) {
+    .contenedor__card {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 489px) {
+    .contenedor__card {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
