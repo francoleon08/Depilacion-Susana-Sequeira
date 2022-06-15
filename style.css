@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+    font-family: 'Quicksand', sans-serif;
+}   
 
 html {
     font-size: 62.5%;
@@ -57,7 +58,7 @@ header {
 
 .boton__scroll {
     position: relative;
-    top: 300px;
+    top: 20%;
 }
 
 .boton__scroll a i {
