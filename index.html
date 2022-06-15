@@ -17,6 +17,9 @@
 
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
+    <!-- Libreria WOW animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -36,6 +39,9 @@
                             <a class="nav-link" href="#ubicacion">Ubicación</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="#faqs">FAQs</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="#contacto">Contacto</a>
                         </li>
                     </ul>
@@ -47,10 +53,11 @@
         <div id="banner">
             <div id="titulo">
                 <div>
-                    <h1>Depilacion definitiva</h1>
+                    <h1>Depilación definitiva</h1>
                     <h2>Susana Sequeira</h2>
                 </div>
-                <div>
+                <div
+                    class="boton__scroll animate__animated animate__fadeInDown animate__delay-1s animation_iteration_count_infinite">
                     <a href="#servicios"><i class='bx bx-chevron-down-circle'></i></a>
                 </div>
             </div>
@@ -63,6 +70,9 @@
             </div>
             <div class="contenedor__card">
                 <div class="card">
+                    <div class="card__img">
+                        <img src="https://picsum.photos/150?random=1" alt="">
+                    </div>
                     <span class="card__titulo">Depilacion</span>
                     <div class="card__descripcion">
                         <p>Descripcion</p>
@@ -77,6 +87,9 @@
                     </div>
                 </div>
                 <div class="card">
+                    <div class="card__img">
+                        <img src="https://picsum.photos/150?random=2" alt="">
+                    </div>
                     <span class="card__titulo">Depilacion</span>
                     <div class="card__descripcion">
                         <p>Descripcion</p>
@@ -91,6 +104,9 @@
                     </div>
                 </div>
                 <div class="card">
+                    <div class="card__img">
+                        <img src="https://picsum.photos/150?random=3" alt="">
+                    </div>
                     <span class="card__titulo">Depilacion</span>
                     <div class="card__descripcion">
                         <p>Descripcion</p>
@@ -105,6 +121,9 @@
                     </div>
                 </div>
                 <div class="card">
+                    <div class="card__img">
+                        <img src="https://picsum.photos/150?random=4" alt="">
+                    </div>
                     <span class="card__titulo">Depilacion</span>
                     <div class="card__descripcion">
                         <p>Descripcion</p>
@@ -119,6 +138,9 @@
                     </div>
                 </div>
                 <div class="card">
+                    <div class="card__img">
+                        <img src="https://picsum.photos/150?random=5" alt="">
+                    </div>
                     <span class="card__titulo">Depilacion</span>
                     <div class="card__descripcion">
                         <p>Descripcion</p>
@@ -133,6 +155,9 @@
                     </div>
                 </div>
                 <div class="card">
+                    <div class="card__img">
+                        <img src="https://picsum.photos/150?random=6" alt="">
+                    </div>
                     <span class="card__titulo">Depilacion</span>
                     <div class="card__descripcion">
                         <p>Descripcion</p>
@@ -149,17 +174,121 @@
             </div>
         </section>
         <section id="ubicacion">
-            <div>
-                <h3 class="ubicacion__titulo">Ubicacion</h3>
+            <div class="ubicacion__container">
+                <div>
+                    <h3 class="ubicacion__titulo">Ubicacion</h3>
+                </div>
+                <div class="ubicacion__mapa">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12455.06341536027!2d-62.274403199999995!3d-38.7002224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edbb5108788727%3A0xa75187e0be626c75!2sUniversidad%20Nacional%20del%20Sur%20(UNS)%20-%20Complejo%20Alem!5e0!3m2!1ses-419!2sar!4v1655174074883!5m2!1ses-419!2sar"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quasi, explicabo possimus,
+                            ipsam voluptatum saepe, placeat dolorem obcaecati similique cum commodi expedita
+                            voluptatibus
+                            dolores et eaque veritatis quod. At, quidem.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quasi, explicabo possimus,
+                            ipsam voluptatum saepe, placeat dolorem obcaecati similique cum commodi expedita
+                            voluptatibus
+                            dolores et eaque veritatis quod. At, quidem.</p>
+                    </div>
+                </div>
             </div>
-            <div class="ubicacion__mapa">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12455.06341536027!2d-62.274403199999995!3d-38.7002224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edbb5108788727%3A0xa75187e0be626c75!2sUniversidad%20Nacional%20del%20Sur%20(UNS)%20-%20Complejo%20Alem!5e0!3m2!1ses-419!2sar!4v1655174074883!5m2!1ses-419!2sar"
-                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
+        </section>
+        <section id="faqs">
+            <div>
+                <h3 class="faqs__titulo">Preguntas frecuentes</h3>
+            </div>
+            <div class="container__accordion">
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                aria-controls="panelsStayOpen-collapseOne">
+                                Pregunta #1
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                            aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body">
+                                <strong>This is the first item's accordion body.</strong> It is shown by default, until
+                                the collapse plugin adds the appropriate classes that we use to style each element.
+                                These classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseTwo">
+                                Pregunta #2
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body">
+                                <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                until the collapse plugin adds the appropriate classes that we use to style each
+                                element. These classes control the overall appearance, as well as the showing and hiding
+                                via CSS transitions. You can modify any of this with custom CSS or overriding our
+                                default variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseThree">
+                                Pregunta #3
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
+                                the collapse plugin adds the appropriate classes that we use to style each element.
+                                These classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseFour">
+                                Pregunta #4
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingFour">
+                            <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
+                                the collapse plugin adds the appropriate classes that we use to style each element.
+                                These classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section id="contacto">
+            <div class="contacto__titulo">
+                <h3>Contacto</h3>
+            </div>
             <div class="contacto__container">
                 <div class="contacto__texto">
                     <div>
@@ -171,33 +300,24 @@
                             provident sunt. Sequi nihil necessitatibus modi!</p>
                     </div>
                 </div>
-                <div>
-                    <div>
-                        <h3 class="contacto__titulo">Contacto</h3>
-                    </div>
-                    <div class="contacto__formulario">
-                        <form action="" method="post">
-                            <div>
-                                <input type="text" class="formulario__item" name="nombre"
-                                    placeholder="Ingrese su nombre y apellido" required>
+                <div class="contacto__form">
+                    <form>
+                        <div class="row py-2">
+                            <div class="form-group col-md-6">
+                                <label for="name">Su nombre</label>
+                                <input type="name" class="form-control" id="name" required>
                             </div>
-                            <div>
-                                <input type="email" class="formulario__item" name="correo"
-                                    placeholder="Ingrese su correo (opcional)">
+                            <div class="form-group col-md-6">
+                                <label for="Email">Su correo</label>
+                                <input type="email" class="form-control" id="Email" required>
                             </div>
-                            <div>
-                                <input type="text" class="formulario__item" name="telefono"
-                                    placeholder="Ingrese su telefono" required>
-                            </div>
-                            <div>
-                                <textarea class="formulario__item formulario__item--textarea" name="consulta" cols="30"
-                                    rows="5" placeholder="Escriba su consulta"></textarea>
-                            </div>
-                            <div>
-                                <input type="submit" class="formulario__item formulario__item--boton">
-                            </div>
-                        </form>
-                    </div>
+                        </div>
+                        <div class="form-group py-2">
+                            <label for="message">Consulta</label>
+                            <textarea class="form-control" id="message" rows="3" required></textarea>
+                        </div>
+                        <input type="submit" value="Enviar" class="py-2 my-3 boton__form">
+                    </form>
                 </div>
             </div>
         </section>
@@ -218,11 +338,57 @@
         </section>
         <section class="col__derecha">
             <ul class="contacto__developer">
-                <li>Contacto</li>
-                <li>Soporte</li>
+                <li>
+                    <button type="button" class="btn btn-bootstrap" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Contacto
+                    </button>
+                </li>
+                <li>
+                    <button type="button" class="btn btn-bootstrap">
+                        Soporte
+                    </button>
+                </li>
             </ul>
         </section>
     </footer>
+
+    <!-- MODAL CONTACTO DEVELOPER -->
+    <!-- Button trigger modal -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Franco León - Developer</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <span>Página desarrollada por Franco León - </span>
+                    <span>Redes de contacto:</span>
+                    <div class="m-1">
+                        <a href="https://github.com/francoleon08?tab=repositories" target="_blank"
+                            class="link__developer" rel="nofollow"><i class="bx bxl-github bx-lg bx-tada-hover"></i></a>
+                        <a href="https://www.linkedin.com/in/franco-leon-0206b523a/" target="_blank"
+                            class="link__developer" rel="nofollow"><i
+                                class="bx bxl-linkedin-square bx-lg bx-tada-hover"></i></a>
+                        <a href="https://www.facebook.com/francoleon08/" target="_blank" class="link__developer"
+                            rel="nofollow"><i class='bx bxl-facebook-circle bx-lg bx-tada-hover'></i></a>
+                        <a href="mailto:francoleon284@gmail.com" class="link__developer"><i
+                                class='bx bxl-gmail bx-lg bx-tada-hover'></i></a>
+                    </div>
+                    <span>Todos los derechos reservados</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 
 </html>
