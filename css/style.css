@@ -66,6 +66,15 @@ header {
 }
 
 .boton__scroll a i {
+  transition: .5s;
+}
+
+.boton__scroll a i:hover {
+  color: white;
+  transform: translateY(15px);
+}
+
+.boton__scroll a i {
   font-size: 8rem;
 }
 
@@ -144,6 +153,11 @@ header {
   border-radius: 1rem;
   background-color: #E3BEC6;
   color: #1572A1;
+  transition: .5s;
+}
+
+.card__button:hover, .card__button:focus {
+  border: 1px solid #1572A1;
 }
 
 @media (max-width: 768px) {
@@ -315,6 +329,11 @@ header {
   color: #EFDAD7;
 }
 
+.form-control-text {
+  height: 150px;
+  resize: none;
+}
+
 .boton__form {
   color: #EFDAD7;
   font-size: 2rem;
@@ -323,6 +342,12 @@ header {
   border-radius: .5rem;
   padding: .5rem;
   width: 100%;
+  transition: .5s;
+}
+
+.boton__form:hover {
+  background-color: #EFDAD7;
+  color: #1572A1;
 }
 
 @media (max-width: 768px) {
@@ -357,6 +382,10 @@ footer section {
 
 .col__derecha {
   justify-content: flex-end;
+}
+
+.link__footer--hover:hover {
+  color: white;
 }
 
 footer ul {

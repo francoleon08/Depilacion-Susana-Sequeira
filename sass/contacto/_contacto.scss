@@ -78,6 +78,11 @@
     }    
 }
 
+.form-control-text {
+    height: 150px;
+    resize: none;
+}
+
 .boton__form {
     color: $color-3;
     font-size: 2rem;
@@ -86,7 +91,15 @@
     border-radius: .5rem;
     padding: .5rem;
     width: 100%;
+    transition: .5s;
+
+    &:hover {
+        background-color: $color-3;
+        color: $color-1;
+    }
 }
+
+
 
 @media (max-width: 768px) {
     #contacto {

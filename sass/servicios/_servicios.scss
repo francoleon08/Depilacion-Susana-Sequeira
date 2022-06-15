@@ -68,6 +68,12 @@
     border-radius: 1rem;
     background-color: $color-4;
     color: $color-1;
+    transition: .5s;
+
+    &:hover,
+    &:focus {
+        border: 1px solid $color-1;
+    }
 }
 
 @media (max-width: 768px) {
