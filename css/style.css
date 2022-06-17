@@ -112,6 +112,7 @@ header {
   margin: auto;
   border: none;
   border-radius: 3rem;
+  z-index: -1;
 }
 
 .card__img {
@@ -123,6 +124,8 @@ header {
   top: -77px;
   border: 5px solid #EFDAD7;
   border-radius: 10rem;
+  max-width: 150px;
+  max-height: 150px;
 }
 
 .card__titulo {
@@ -270,6 +273,7 @@ header {
   padding: 2rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  overflow: hidden;
 }
 
 .contacto__texto {
